@@ -1,0 +1,33 @@
+#skills{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.tSkills{
+    margin-top: 120px;
+}
+.boxSkills{
+    width:120px;
+    height: 120px;
+}
+#iconeSkills{
+    font-size:80px;
+    background-color:#212121;
+    color:#35dbd8ed;
+    margin-left:20px;
+    margin-top:20px;
+}
+#html{
+    font-size:80px;
+    background-color:#212121;
+    color:#35dbd8ed;
+    margin-left:27px;
+    margin-top:20px;
+}
+
+@media(min-width:800px){
+    .boxSkills{
+        margin: 40px;
+    }
+}

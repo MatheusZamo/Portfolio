@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000">
+    <link rel="shortcut icon" type="imagex/png" href="./img/logo.png">
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/apresentacao.css">
+    <link rel="stylesheet" href="./assets/sobreMim.css">
+    <link rel="stylesheet" href="./assets/projetos.css">
+    <link rel="stylesheet" href="./assets/servicos.css">
+    <link rel="stylesheet" href="./assets/minhasSkills.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Portfólio - Matheus</title>
+  </head>
+  <body>
+    <header>
+      <div id="navBar">
+        <img id="imgNome" src="./img/logo.png" alt="" />
+        <i class="fa fa-bars" aria-hidden="true"id="menuH"></i> 
+        <i class="fa fa-times" aria-hidden="true"id="menuFechar"></i>
+        <div id="listaMobile">
+          <ul>
+            <li class="opcoes"><a href="#sobreMim"class='link'>Sobre Mim</a></li>
+            <li class="opcoes"><a href="#projetos"class='link'>Projetos</a></li>
+            <li class="opcoes"><a href="#servicos"class='link'>Serviços</a></li>
+            <li class="opcoes"><a href="#minhasSkills"class='link'>Minhas Skills</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="intro">
+        <div id="apresentacao">
+          <h1 id="titulo">Olá, eu sou Matheus <br />Henrique :)</h1>
+          <p id="frase">Futuro Desenvolvedor Front-End.</p>
+          <a href="./img/Curriculo.pdf" download="Matheus Henrique"><button id="btnD">Download CV</button></a> 
+          <a href="#contatos"class="link btn"><button id="btnE">Entrar em contato </button></a>
+        </div>
+        <div id="background">
+          <img id="imagemDev" src="./img/background.png" alt="Pessoa programando" />
+        </div>
+      </section>
+      <article id="sobre">
+        <h2 class="subTitulos "id='sobreMim'>Sobre mim</h2>
+        <p id="fSobreMin">Olá, me chamo Matheus Henrique, e estou atualmente estudando para me tornar um desenvolvedor, tenho aplicado meus conhecimentos em projetos pessoais, meu foco e com o desenvolvimento front-end, estou estudando e praticando diariamente Html, Css e Javascript !!!</p>
+      </article>
+      <h2 class="subTitulos contato">Contatos</h2>
+      <container id="contatos">
+        <div class="icons">
+          <a class='link'href="https://www.linkedin.com/in/matheusolsantos/" target='blank'>
+            <div class="iconBackground">
+              <div class="backgroundIcon">
+                <i class="fa fa-linkedin"id='linkedin'aria-hidden="true"></i>
+              </div>
+            </div>
+            <h3 class="tituloIcon">Linkedin</h3>
+            <p class="nomeIcon">Matheus Henrique </p>
+          </a>
+          <a class='link'href="https://github.com/MatheusZamo"target='blank'>
+            <div class="backgroundIcon subIcon git">
+              <i class="fa fa-github"id='git' aria-hidden="true"></i>
+            </div>
+          <h3 class="tituloIcon">Github</h3>
+          <p class="nomeIcon">MatheusZamo</p>
+        </a>
+        </div>
+        <div>
+          <a class='link e'>
+            <div class="backgroundIcon email">
+              <i class="fa fa-envelope" id='gmail'aria-hidden="true"></i>
+            </div>
+            <h3 class="tituloIcon">E-mail</h3>
+            <p class="nomeIcon">19matheushenrique03</br>@gmail.com</p>
+          </a>
+        <a class="link" href="https://www.instagram.com/matheus.hosantos/" target="blank">
+          <div class="backgroundIcon subIcon instagram">
+            <i class="fa fa-instagram" id='instagram'aria-hidden="true"></i>
+          </div>
+          <h3 class="tituloIcon">Instagram</h3>
+          <p class="nomeIcon">matheus.hosantos</p>
+          </a>
+        </div>
+      </container>
+      <h3 class="subTitulos tProjetos">Projetos</h3>
+      <section id="projetos">
+        <a href="https://matheuszamo.github.io/Music/" target="blank" class="noBox scroll">
+          <img class='img'src="./img/Music.png" alt="Biblioteca de musicas">
+          <h4 class="nomeProjeto">Music Library</h4>
+          <p class="nomeTecnologias">Tecnologias : HTML, CSS e JS</p>
+        </a>
+        <a href="https://matheuszamo.github.io/Thu-Doces/" target="blank" class="noBox scroll">
+          <img class='img'src='./img/thu-doces.png' alt="Biblioteca de musicas">
+          <h4 class="nomeProjeto">Thu Doces</h4>
+          <p class="nomeTecnologias">Tecnologias : HTML, CSS e JS</p>
+        </a>
+        <a href="https://matheuszamo.github.io/controle-de-despesas/" target="blank" class="noBox scroll">
+          <img class='img'src="./img/gastos.png" alt="Biblioteca de musicas">
+          <h4 class="nomeProjeto">Controle de Gastos</h4>
+          <p class="nomeTecnologias">Tecnologias : HTML, CSS e JS</p>
+        </a>
+        <a href="https://matheuszamo.github.io/Contagem-Ano-Novo/" target="blank" class="noBox scroll">
+          <img class='img'src="./img/ano-novo.png" alt="Biblioteca de musicas">
+          <h4 class="nomeProjeto">Contagem Regressiva</h4>
+          <p class="nomeTecnologias">Tecnologias : HTML, CSS e JS</p>
+        </a>
+        <a href="https://matheuszamo.github.io/Music-Plan/" target="blank" class="noBox scroll">
+          <img class='img'src="./img/plan.png" alt="Biblioteca de musicas">
+          <h4 class="nomeProjeto">Musics Plan</h4>
+          <p class="nomeTecnologias">Tecnologias : HTML e CSS</p>
+        </a>
+        <a href="https://matheuszamo.github.io/Amazing-Graph/" target="blank" class="noBox scroll">
+          <img class='img'src="./img/graph.png" alt="Biblioteca de musicas">
+          <h4 class="nomeProjeto">Amazing Graphics</h4>
+          <p class="nomeTecnologias">Tecnologias : HTML e CSS</p>
+        </a>
+      </section>
+      <h4 class="subTitulos tServicos">Serviços</h4>
+      <article id="servicos">
+        <div class='noBox scroll boxServicos'>
+          <span class="iconify" data-icon="bi:code-slash"id="iconeServicos"></span>
+          <p class="nomeServico">Código Sêmantico</p>
+        </div>
+        <div class='noBox scroll boxServicos'>
+          <span class="iconify" data-icon="clarity:devices-solid"id="iconeServicos"></span>
+          <p class="nomeServico">Sites Responsivos</p>
+        </div>
+        <div class='noBox scroll boxServicos'>
+          <span class="iconify" data-icon="bx:window-alt"id="iconeServicos"></span>
+          <p class="nomeServico">Criação de Sites</p>
+        </div>
+      </article>
+      <h3 class="subTitulos tSkills"id='minhasSkills'>Minhas Skills</h3>
+      <section id="skills">
+        <div class="noBox scroll boxSkills">
+          <span class="iconify" data-icon="ant-design:html5-filled" id="iconeSkills"></span>
+        </div>
+        <div class="noBox scroll boxSkills">
+          <span class="iconify" data-icon="cib:css3-shiled"id="iconeSkills"></span>
+        </div>
+        <div class="noBox scroll boxSkills">
+          <span class="iconify" data-icon="cib:js"id="iconeSkills"></span>
+        </div>
+        <div class="noBox scroll boxSkills">
+          <span class="iconify" data-icon="bi:bootstrap-fill"id="iconeSkills"></span>
+        </div>
+        <div class="noBox scroll boxSkills">
+          <span class="iconify" data-icon="bi:wordpress"id="iconeSkills"></span>
+        </div>
+        <div class="noBox scroll boxSkills">
+          <span class="iconify" data-icon="bi:git"id="iconeSkills"></span>
+        </div>
+      </section>
+      <footer>
+        <p id="fraseFooter">Orgulhosamente feito por <span id="footer">Matheus Henrique</span></p>
+      </footer>
+
+      <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+      <script src="./script.js"></script>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,139 @@
+*{
+    background: #171717;
+    font-family: 'Roboto', sans-serif;
+}
+#navBar{
+    height: 80px;
+    width: 100%;
+    background:#212121;
+    position: fixed;
+    top:0;
+    z-index: 1000;
+}
+#listaMobile{
+    display: none;
+    color: #F9F9F9;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+#listaMobile.active{
+    display: block;
+    opacity: 1;
+}
+.opcoes{
+    padding-bottom: 18px;
+    font-size: 19px;
+    cursor: pointer;
+    background-color: #212121;
+    font-family: 'Roboto', sans-serif;
+}
+.link{
+    text-decoration: none;
+    color: #F9F9F9;
+    background-color: #212121;
+}
+#imgNome{
+    padding-left:60px;
+    height:76px;
+    background:#212121;
+}
+#menuH{
+    padding-left: 200px;
+    padding-top: 25px;
+    background:#212121;
+    cursor:pointer;
+    color: #F9F9F9;
+    opacity: 1;
+    display: inline;
+    position: absolute;
+    font-size:35px;
+}
+#menuFechar{
+    margin-left: 200px;
+    padding-top: 25px;
+    background:#212121;
+    cursor:pointer;
+    color: #F9F9F9;
+    opacity: 0;
+    display: none;
+    position: absolute;
+    font-size:35px;
+}
+#menuFechar.active{
+    opacity: 1;
+    display: inline;
+}
+#menuH.active{
+    opacity: 0;
+    display : none;
+}
+
+#fraseFooter{
+    margin-top: 100px;
+    background-color: #212121;
+    color: #F9F9F9;
+    text-align:center;
+    font-size: 17px;
+    padding: 10px;
+}
+#footer{
+    color:#35dbd8ed;
+    background-color: #212121;
+}
+
+
+
+@media (min-width:600px){
+    #menuH{
+        padding-left: 300px;
+    }
+}
+
+@media (min-width:800px){
+    #navBar{
+        display: flex;
+        justify-content: space-between;
+    }
+    #menuH{
+        display:none;
+    }
+    #listaMobile{
+        display:flex;
+        opacity: 1;
+    }
+    ul{
+        display: flex; 
+        flex-direction: row;
+        padding-right: 60px;
+        background-color: #212121;
+    }
+    .opcoes{
+        padding-top: 30px;
+        padding-right:30px;
+    }
+
+}
+
+@media (min-width:1200px){
+    #fraseFooter{
+        margin-top:20px;
+    }
+}
+
+
+
+::-webkit-scrollbar-track {
+    background-color: #212121;
+    border-radius:10px;
+}
+::-webkit-scrollbar {
+    width: 9px;
+    background: #212121;
+    height: 6px;
+    border-radius:10px;
+}
+::-webkit-scrollbar-thumb {
+    background:#35dbd8ed;
+    border-radius:10px;
+}
