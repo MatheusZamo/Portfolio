@@ -15,11 +15,11 @@
     color: #F9F9F9;
     text-align: center;
     opacity: 0;
-    transition: all 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
 #listaMobile.active{
     display: block;
     opacity: 1;
+    animation: mostrarLista 1s ease-in-out;
 }
 .opcoes{
     padding-bottom: 18px;
@@ -136,4 +136,23 @@
 ::-webkit-scrollbar-thumb {
     background:#35dbd8ed;
     border-radius:10px;
+}
+
+
+
+@keyframes mostrarLista{
+    0%{
+        transform:translateY(-155px);
+        opacity:0;
+    }
+    50%{
+        opacity:0.2;
+    }
+    75%{
+        opacity:0.4;
+    }
+    100%{
+        transform:translateY(0);
+        opacity:1;
+    }
 }
