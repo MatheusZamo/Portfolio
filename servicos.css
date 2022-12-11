@@ -1,0 +1,51 @@
+.imgServico{
+    margin-top:60px;
+}
+#servicos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.boxServicos{
+    width:320px;
+    height:170px;
+    border-bottom:5px solid #35dbd8ed;
+}
+.tServicos{
+    margin-top: 120px;
+}
+#iconeServicos{
+    background-color: #212121;
+    font-size:50px;
+    color: #35dbd8ed;
+    margin-left: 142px;
+    margin-top:40px;
+    font-weight: 400;
+}
+.nomeServico{
+    margin-top:30px;
+    color:#828282;
+    font-size:27px;
+    font-weight:bold;
+    text-align:center;
+    background-color: #212121;
+}
+
+@media(min-width:800px){
+    #servicos{
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: flex-start;    
+    }
+    .boxServicos{
+        width:360px;
+    }
+    #iconeServicos{
+    margin-left: 153px;
+    }
+}
+@media(min-width:1200px){
+    .boxServicos{
+        margin: 40px;
+    }
+}
