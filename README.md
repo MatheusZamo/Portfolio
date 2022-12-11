@@ -1,6 +1,6 @@
 # Portfólio
 
-![port](https://user-images.githubusercontent.com/78445566/192114272-e873f302-1ef4-4a12-adb7-74843e67a1b6.png)<br><br>
+![image](https://user-images.githubusercontent.com/78445566/206883427-1c30cde4-ff69-4508-a9ae-f3e8fb1076a1.png)<br><br>
 <h1>Sobre o Projeto</h1>
 Pequena apresentação sobre mim, minhas skills e projetos em destaque<br>
 O objetivo do projeto e mostrar os meus conhecimentos, nas tecnnologias que tenho focado e estudado diariamente<br>As tecnologias são Html, Css e Javascript.
