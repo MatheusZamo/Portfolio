@@ -1,10 +1,17 @@
 
 .subTitulos{
-    margin-top:40px;
+    margin-top:60px;
     color:#F9F9F9;
     font-size:27px;
     font-weight:bold;
-    text-align:center;
+}
+.imgAstro{
+    width:150px;
+    height:150px;
+}
+.subEImg{
+    display:flex;
+    justify-content:space-around;
 }
 #fSobreMin{
     color:#828282;
@@ -19,6 +26,9 @@
 #contatos{
     display:flex;
     justify-content: space-around;
+}
+.imgContato{
+    margin-top:75px;
 }
 .icons{
     flex-direction:column;
@@ -104,5 +114,21 @@
 @media(min-width:1200px){
     .icons{
         flex-direction: row;
+    }
+    #sobre{
+        margin-top: 130px;
+    }
+    .subEImg{
+        justify-content: center;
+    }
+    .imgContato{
+        margin-top:25px;
+    }
+    .subTitulos{
+        font-size:35px;
+    }
+    #fSobreMin{
+        width:600px;
+        font-size:20px;
     }
 }

@@ -55,6 +55,8 @@
 #imagemDev{
     width:300px;
     height: 330px;
+    margin-top:25px;
+    animation: astro1 2s ease-in-out alternate infinite;
 }
 #background{
     text-align: center;
@@ -68,5 +70,17 @@
     }
     #background{
         margin-top: 20px;
+    }
+    #titulo{
+        font-size:55px;
+    }
+}
+
+@keyframes astro1{
+    from{
+        transform:translateY(20px);
+    }
+    to{
+        transform:translateY(-20px);
     }
 }

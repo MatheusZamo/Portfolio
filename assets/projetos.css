@@ -1,6 +1,9 @@
 .tProjetos{
     margin-top:120px;
 }
+.imgAstroProjeto{
+    margin-top:50px;
+}
 #projetos{
     display: flex;
     flex-direction: column;

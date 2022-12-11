@@ -1,3 +1,6 @@
+.imgServico{
+    margin-top:60px;
+}
 #servicos{
     display: flex;
     flex-direction: column;

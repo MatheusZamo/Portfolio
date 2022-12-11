@@ -8,6 +8,7 @@ const opcoes = document.querySelectorAll('.opcoes');
 menuAbrir.addEventListener('click', menuMobile);
 menuFechar.addEventListener('click',menuMobile);
 
+
 function menuMobile(){
    listaMobile.classList.toggle("active");
    menuAbrir.classList.toggle('active');
